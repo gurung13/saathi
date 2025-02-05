@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+ul
+{
+    list-style: none;
+}
+
+body
+{
+    font-family: "Montserrat", serif;
+}
+
+.container
+{
+    max-width: 1200px; 
+    margin: auto;
+}
+
+.flex
+{
+    display: flex;
+}
+
+.jc
+{
+    justify-content: space-between;
+}
+
+.ai
+{
+    align-items: center;
+}
+
+.gap-10
+{
+    gap: 10px;
+}
+
+.gap-15
+{
+    gap: 15px;
+}
+
+.gap-20
+{
+    gap: 20px;
+}
+.top{
+    background-color: black; 
+    color: white;
+    padding: 15px 0;
+}
+
+.logo{
+width: 150px;
+}
+
+header{
+padding: 15px;
+}
+
+header a{
+color: black;
+font-weight: bold;
+text-transform: uppercase;
+}
+
+.w
+{
+    width: 100%;
+}
+
+.about
+{
+    padding: 25px 0;
+}
+.btn
+{
+  background-color: red;
+    color: white;
+    padding: 15px 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.left
+{
+padding-bottom: 20px;
+}
+
+.card{
+    width: 380px;
+    box-shadow: 0px 2px 3px 0px #00000018;
+    background-color:white;
+    
+}
+
+.cardbody{
+    padding: 20px;
+}
+
+.cardbody p{
+    color: black;
+    padding: 20px 0;
+}
+
+.footer{
+    border-top: 1px solid #ccc;
+    padding: 15px;
+    border-bottom: 1px solid #ccc;
+}
+.title{
+    padding: 20px, 0;
+}
+.wrap{
+    flex-wrap: wrap;
+}
+.jcenter{
+    justify-content: center;
+}
+.pagination{
+    margin: 30px 0;
+}
+footer{
+    padding: 70px 0;
+    background-color: black;
+    color: white;
+}
+.copyright{
+    background: #967B4F;
+    padding: 15px 0;
+}
+.breadcrumb{
+    background: #967B4F;
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+
+}
+
+.content-left{
+width: 60%;
+line-height: 1.7;
+}
+.content-right{
+    width: 40%;
+}
+.content{
+    padding: 40px 0;
+}
+.content-left h5{
+    font-weight: 800;
+    padding: 15px 0;
+}
+.content-left p{
+    padding: 10px;
+    color: #666464;
+}
+.thumb{
+    width: 100px;
+}
+.my{
+    margin: 20px 0;
+}
